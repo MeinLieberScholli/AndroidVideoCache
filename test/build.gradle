@@ -17,8 +17,8 @@ android {
         versionName '0.1'
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     buildFeatures {
         buildConfig = true
@@ -69,10 +69,4 @@ dependencies {
     testImplementation 'com.squareup:fest-android:1.0.0'
     testImplementation 'com.google.guava:guava-jdk5:17.0'
     testImplementation 'org.mockito:mockito-all:1.9.5'
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(11)
-    }
 }

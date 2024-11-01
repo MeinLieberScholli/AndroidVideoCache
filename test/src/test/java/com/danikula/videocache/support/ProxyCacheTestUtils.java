@@ -1,6 +1,6 @@
 package com.danikula.videocache.support;
 
-import com.danikula.android.garden.io.IoUtils;
+import com.danikula.videocache.util.IoUtils;
 import com.danikula.videocache.ByteArraySource;
 import com.danikula.videocache.HttpProxyCacheServer;
 import com.danikula.videocache.HttpUrlSource;

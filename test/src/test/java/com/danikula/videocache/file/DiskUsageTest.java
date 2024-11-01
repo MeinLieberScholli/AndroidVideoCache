@@ -9,8 +9,8 @@ import org.junit.Test;
 import java.io.File;
 import java.io.IOException;
 
-import static com.danikula.android.garden.io.Files.cleanDirectory;
-import static com.danikula.android.garden.io.Files.createDirectory;
+import static com.danikula.videocache.util.Files.cleanDirectory;
+import static com.danikula.videocache.util.Files.createDirectory;
 import static org.fest.assertions.api.Assertions.assertThat;
 
 /**

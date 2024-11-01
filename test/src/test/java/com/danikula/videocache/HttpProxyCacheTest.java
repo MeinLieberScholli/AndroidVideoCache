@@ -1,6 +1,6 @@
 package com.danikula.videocache;
 
-import com.danikula.android.garden.io.IoUtils;
+import com.danikula.videocache.util.IoUtils;
 import com.danikula.videocache.file.FileCache;
 import com.danikula.videocache.sourcestorage.SourceInfoStorage;
 import com.danikula.videocache.sourcestorage.SourceInfoStorageFactory;

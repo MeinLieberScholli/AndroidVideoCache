@@ -3,7 +3,7 @@ package com.danikula.videocache;
 import android.net.Uri;
 import android.util.Pair;
 
-import com.danikula.android.garden.io.IoUtils;
+import com.danikula.videocache.util.IoUtils;
 import com.danikula.videocache.file.FileNameGenerator;
 import com.danikula.videocache.file.Md5FileNameGenerator;
 import com.danikula.videocache.headers.HeaderInjector;
@@ -19,8 +19,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static com.danikula.android.garden.io.Files.cleanDirectory;
-import static com.danikula.android.garden.io.Files.createDirectory;
+import static com.danikula.videocache.util.Files.cleanDirectory;
+import static com.danikula.videocache.util.Files.createDirectory;
 import static com.danikula.videocache.support.ProxyCacheTestUtils.ASSETS_DATA_BIG_NAME;
 import static com.danikula.videocache.support.ProxyCacheTestUtils.ASSETS_DATA_NAME;
 import static com.danikula.videocache.support.ProxyCacheTestUtils.HTTP_DATA_BIG_SIZE;
